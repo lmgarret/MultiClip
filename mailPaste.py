@@ -48,9 +48,6 @@ for i in range(9):
 
 #graphical part
 fenetre = Tk()
-fenetre.title("MailPaste")
-fenetre.iconbitmap('Python.2.7.10\clipboard.ico')
-fenetre.protocol('WM_DELETE_WINDOW', quit)
 cc = Label(fenetre, text="Copyright (C) 2015 LM.Garret", justify = LEFT)
 cc.pack(padx=20, pady=20)
 quitButton=Button(fenetre, text="Quitter", command=quit)
@@ -59,7 +56,11 @@ quitButton.focus()
 insButton = Button(fenetre, text="Instructions", command=instructions)
 insButton.pack(padx=10, pady=10, side=RIGHT)
 fenetre.resizable(width=FALSE, height=FALSE)
+fenetre.title("MailPaste")
+fenetre.iconbitmap('Python.2.7.10\clipboard.ico')
 fenetre.mainloop()
+
+fenetre.protocol('WM_DELETE_WINDOW', quit)
 
 #start looking for hotkey.	
 hot.start()

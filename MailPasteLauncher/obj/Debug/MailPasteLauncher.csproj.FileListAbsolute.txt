@@ -1,0 +1,6 @@
+D:\Google Drive\Projects\python\MailPaste\MailPasteLauncher\obj\Debug\MailPasteLauncher.csprojResolveAssemblyReference.cache
+D:\Google Drive\Projects\python\MailPaste\MailPasteLauncher\bin\Debug\MailPasteLauncher.exe.config
+D:\Google Drive\Projects\python\MailPaste\MailPasteLauncher\bin\Debug\MailPasteLauncher.exe
+D:\Google Drive\Projects\python\MailPaste\MailPasteLauncher\bin\Debug\MailPasteLauncher.pdb
+D:\Google Drive\Projects\python\MailPaste\MailPasteLauncher\obj\Debug\MailPasteLauncher.exe
+D:\Google Drive\Projects\python\MailPaste\MailPasteLauncher\obj\Debug\MailPasteLauncher.pdb
