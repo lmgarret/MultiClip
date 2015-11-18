@@ -1,4 +1,3 @@
-Double-cliquer sur "start.cmd" (possible que le ".cmd" n'apparaisse pas) si ce n'est pas déjà fait!
 
 Copier les mails voulus dans les fichiers "mail0.txt", "mail1.txt" etc... (possible que le ".txt" n'apparaisse pas)
 	Ctrl+1 colle le contenu de "mail1.txt" dans n'importe quelle fenêtre
@@ -10,5 +9,4 @@ D'où 10 mails différents possibles. Les mails sont éditables à n'importe que
  - Ne marche pas pour le clavier numérique, uniquement les touches supérieures du clavier
  - Ne pas modifier le nom des fichiers. 
  - Ne modifier que le texte dans les fichiers "mail0.txt", "mail1.txt", "mail2.txt" etc... (possible que le ".txt" n'apparaisse pas)
- - Après utilisation du raccourci, le chiffre est quand même tapé, donc à supprimer.
  - Fermer la fenêtre arrête les raccourcis.
