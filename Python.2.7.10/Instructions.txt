@@ -1,12 +1,12 @@
-
-Copier les mails voulus dans les fichiers "mail0.txt", "mail1.txt" etc... (possible que le ".txt" n'apparaisse pas)
-	Ctrl+1 colle le contenu de "mail1.txt" dans n'importe quelle fenêtre
-	Ctrl+2 colle le contenu de "mail2.txt" dans n'importe quelle fenêtre
+﻿
+Copier les mails voulus dans les fichiers "mail0.txt", "mail1.txt" etc... (possible que le ".txt" n'apparaisse pas).
+	Ctrl+1 colle le contenu de "mail1.txt" dans n'importe quelle fenêtre.
+	Ctrl+2 colle le contenu de "mail2.txt" dans n'importe quelle fenêtre.
 	etc...
-D'où 10 mails différents possibles. Les mails sont éditables à n'importe quel moment, même quand le programme est lancé
+D'où 10 mails différents possibles. Les mails sont éditables à n'importe quel moment, même quand le programme est lancé.
 
 ⚠ ATTENTION ⚠
  - Ne marche pas pour le clavier numérique, uniquement les touches supérieures du clavier
  - Ne pas modifier le nom des fichiers. 
- - Ne modifier que le texte dans les fichiers "mail0.txt", "mail1.txt", "mail2.txt" etc... (possible que le ".txt" n'apparaisse pas)
- - Fermer la fenêtre arrête les raccourcis.
+ - Ne modifier que le texte dans les fichiers "mail0.txt", "mail1.txt", "mail2.txt" etc... (possible que le ".txt" n'apparaisse pas).
+ - Fermer la fenêtre précédente arrête les raccourcis.
