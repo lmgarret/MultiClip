@@ -53,7 +53,7 @@ namespace MailPasteLauncher
 			System.Diagnostics.Process process = new System.Diagnostics.Process();
 			System.Diagnostics.ProcessStartInfo startInfo = new System.Diagnostics.ProcessStartInfo();
 			startInfo.WindowStyle = System.Diagnostics.ProcessWindowStyle.Hidden;
-			startInfo.FileName = "init.cmd";
+			startInfo.FileName = @"Data\\init.cmd";
 			/*string path = System.IO.Path.GetDirectoryName(Application.ExecutablePath);
 			Console.WriteLine(path);*/
 			string argString = "";

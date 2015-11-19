@@ -1,4 +1,4 @@
-D:\Google Drive\Projects\python\MailPaste\MailPasteLauncher\bin\Release\MailPasteLauncher.exe.config
-D:\Google Drive\Projects\python\MailPaste\MailPasteLauncher\bin\Release\MailPasteLauncher.exe
 D:\Google Drive\Projects\python\MailPaste\MailPasteLauncher\obj\Release\MailPasteLauncher.csprojResolveAssemblyReference.cache
-D:\Google Drive\Projects\python\MailPaste\MailPasteLauncher\obj\Release\MailPasteLauncher.exe
+D:\Google Drive\Projects\python\MailPaste\MailPasteLauncher\bin\Release\MultiClip.exe.config
+D:\Google Drive\Projects\python\MailPaste\MailPasteLauncher\bin\Release\MultiClip.exe
+D:\Google Drive\Projects\python\MailPaste\MailPasteLauncher\obj\Release\MultiClip.exe

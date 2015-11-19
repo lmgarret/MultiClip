@@ -1,0 +1,11 @@
+﻿
+Selectionner le texte à copier, puis appuyer sur Ctrl(droite) et 1 pour assigner ce texte au raccourci 1.
+Pour coller le texte du raccourci 1, appuyer sur Ctrl(gauche) et 1.
+Cela marche pour les 10 touches à numéros du clavier, donc 10 presse-papier!
+Les contenus des raccourcis sont aussi éditables à n'importe quel moment dans le dossier "Data".
+
+⚠ ATTENTION ⚠
+ - Ne marche pas pour le clavier numérique, uniquement les touches supérieures du clavier
+ - Ne modifier le nom d'aucun fichier. 
+ - Fermer la fenêtre précédente arrête les raccourcis.
+ - Si les raccourcis ne marchent plus, appuyer sur le bouton "↺" (relance le programme).
