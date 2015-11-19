@@ -19,7 +19,7 @@ class funWrap:
 		shell.SendKeys("^v")
 
 def quit():
-	hot.end()
+	hotWrap.end()
 	fenetre.destroy()
 	root.quit()
 	
@@ -36,25 +36,47 @@ def instructions():
 	ins.iconbitmap('Python.2.7.10\clipboard.ico')
 	ins.focus()
 	ins.mainloop()
-	
+
+class hotKWrap:
+	def __init__(self):
+		self.hk = pyhk.pyhk()
+		self.initHK()
+		
+	def restartHK(self):
+		self.end()
+		self.hk = pyhk.pyhk()
+		self.initHK()
+		self.start()
+		
+	def initHK(self):
+		key = 'Lcontrol'
+		for i in range(9):
+			t = funWrap(i)
+			self.hk.addHotkey([key, str(i)], t.fun, isThread = True)
+			
+	def start(self):
+		self.hk.start()
+		print("HotKWrap started")
+
+	def end(self):
+		self.hk.end()
+		print("HotKWrap stopped")
 
 #create pyhk class instance
-hot = pyhk.pyhk()
-key = 'Lcontrol'
-for i in range(9):
-	t = funWrap(i)
-	hot.addHotkey([key, str(i)], t.fun, isThread = True)
-
+hotWrap = hotKWrap()
 
 #graphical part
 fenetre = Tk()
 cc = Label(fenetre, text="Copyright (C) 2015 LM.Garret", justify = LEFT)
 cc.pack(padx=20, pady=20)
 quitButton=Button(fenetre, text="Quitter", command=quit)
-quitButton.pack(padx=10, pady=10, side=RIGHT)
+quitButton.pack(padx=7, pady=10, side=RIGHT)
 quitButton.focus()
 insButton = Button(fenetre, text="Instructions", command=instructions)
-insButton.pack(padx=10, pady=10, side=RIGHT)
+insButton.pack(padx=7, pady=10, side=RIGHT)
+refreshButton = Button(fenetre, width = 3, text="↺", command=hotWrap.restartHK)
+refreshButton.pack(padx=7, pady=10, side=RIGHT)
+
 fenetre.resizable(width=FALSE, height=FALSE)
 fenetre.title("MailPaste")
 fenetre.iconbitmap('Python.2.7.10\clipboard.ico')
@@ -63,4 +85,4 @@ fenetre.mainloop()
 fenetre.protocol('WM_DELETE_WINDOW', quit)
 
 #start looking for hotkey.	
-hot.start()
+hotWrap.start()

@@ -10,3 +10,4 @@ D'où 10 mails différents possibles. Les mails sont éditables à n'importe que
  - Ne pas modifier le nom des fichiers. 
  - Ne modifier que le texte dans les fichiers "mail0.txt", "mail1.txt", "mail2.txt" etc... (possible que le ".txt" n'apparaisse pas).
  - Fermer la fenêtre précédente arrête les raccourcis.
+ - Si les raccourcis ne marchent plus, appuyer sur le bouton "↺"
