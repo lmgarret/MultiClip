@@ -1,4 +1,4 @@
-# MailPaste
+# MultiClip
 A python solution to a multiple clipboard.
 
 Originally made for my sister, which had to copy the 5/6 same text (mainly emails) for the whole day at her job; now I may find some use to it too!
