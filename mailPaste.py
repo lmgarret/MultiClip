@@ -6,6 +6,7 @@ import win32com.client, pythoncom
 import codecs
 from Tkinter import * 
 from ttk import *
+from subprocess import call
 
 class funWrap:
 	def __init__(self, num):
@@ -43,10 +44,12 @@ class hotKWrap:
 		self.initHK()
 		
 	def restartHK(self):
-		self.end()
-		self.hk = pyhk.pyhk()
-		self.initHK()
-		self.start()
+		#self.end()
+		#self.hk = pyhk.pyhk()
+		#self.initHK()
+		#self.start()
+		call(["MailPasteLauncher.exe", str(fenetre.winfo_x()), str(fenetre.winfo_y())])
+		quit()
 		
 	def initHK(self):
 		key = 'Lcontrol'
@@ -67,6 +70,8 @@ hotWrap = hotKWrap()
 
 #graphical part
 fenetre = Tk()
+pos = '+'+sys.argv[1]+'+'+sys.argv[2]
+fenetre.geometry(pos)
 cc = Label(fenetre, text="Copyright (C) 2015 LM.Garret", justify = LEFT)
 cc.pack(padx=20, pady=20)
 quitButton=Button(fenetre, text="Quitter", command=quit)

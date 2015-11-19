@@ -22,9 +22,9 @@ namespace MailPasteLauncher
 
 		private NotifyIcon niIcon;
 
-		public int MyApp() {
+		public int MyApp(string[] args) {
 
-			InitializeComponent();
+			InitializeComponent(args);
 			
 			return 0;
 
@@ -37,7 +37,7 @@ namespace MailPasteLauncher
 		{
 
 			MainForm cx = new MainForm();
-			cx.MyApp();
+			cx.MyApp(args);
 
 			Application.Run(cx);
 
@@ -45,7 +45,7 @@ namespace MailPasteLauncher
 
 		#region Initialize Components
 
-		public void InitializeComponent()
+		public void InitializeComponent(string[] args)
 
 		{
 
@@ -55,8 +55,16 @@ namespace MailPasteLauncher
 			startInfo.WindowStyle = System.Diagnostics.ProcessWindowStyle.Hidden;
 			startInfo.FileName = "init.cmd";
 			/*string path = System.IO.Path.GetDirectoryName(Application.ExecutablePath);
-			Console.WriteLine(path);
-			startInfo.Arguments = "Python.2.7.10/pythonw.exe mailPaste.py";*/
+			Console.WriteLine(path);*/
+			string argString = "";
+			if(args.Length<2){
+				argString = Screen.PrimaryScreen.Bounds.Width/4+" "+Screen.PrimaryScreen.Bounds.Height/4;
+			}else{
+				for(int i=0; i<args.Length; i++){
+					argString+=" "+args[i];
+				}
+			}
+			startInfo.Arguments = argString;
 			process.StartInfo = startInfo;
 			process.Start();
 			process.WaitForExit();
