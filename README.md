@@ -11,6 +11,7 @@ Select your text, press Right_Control and X (X being a number, not on the keypad
 You can also go to the Data folder and edit directly the corresponding txt files.
 
 ##Known issues
+- Only works with simple text format!!
 - After using Ctrl+Shift+Esc shortcut or Ctrl+Alt+Del, MultiClip won't work anymore. It is a known issue with PYHK an pyHook that haven't been fixed since, and I may not be able to fix it. Hence the restart button.
 - Some mouse lags appears while MultiClip is launched, still working to find out why, it may be in PYHK or pyHook code.
 
